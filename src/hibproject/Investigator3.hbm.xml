@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hibproject">
+  <class name="Investigator3" table="investigator3">
+    <id column="inv3ID" name="inv3ID"/>
+    <property column="inv3Pwd" name="inv3Pwd"/>
+    <property column="assignedFIR" name="assignedFIR"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hibproject">
+  <class name="FIR" table="FIR">
+    <id column="FIRNo" name="FIRNo"/>
+    <property column="FIRName" name="FIRName"/>
+    <property column="FIRAddress" name="FIRAddress"/>
+    <property column="AadharNo" name="AadharNo"/>
+    <property column="ContactNo" name="ContactNo"/>
+    <property column="FIRTime" name="FIRTime"/>
+    <property column="FIRStatment" name="FIRStatment"/>
+    <property column="FIRAssignInvestigator" name="FIRAssignInvestigator"/>
+    <property column="FIRStatus" name="FIRStatus"/>
+  </class>
+</hibernate-mapping>
